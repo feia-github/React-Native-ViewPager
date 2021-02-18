@@ -6,10 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1;"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zbtang/React-Native-ViewPager.git"
-  },
   "keywords": [
     "react-native-component",
     "react-component",
@@ -29,11 +25,10 @@
   ],
   "author": "ZubinTang",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zbtang/React-Native-ViewPager/issues"
-  },
   "dependencies": {
     "@react-native-community/viewpager": "^1.1.7"
   },
-  "homepage": "https://github.com/zbtang/React-Native-ViewPager#readme"
+  "peerDependencies": {
+    "react-native": ">=0.62.0"
+  }
 }
