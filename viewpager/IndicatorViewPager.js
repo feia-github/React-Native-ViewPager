@@ -13,7 +13,6 @@ const VIEWPAGER_REF = 'viewPager'
 const INDICATOR_REF = 'indicator'
 export default class IndicatorViewPager extends Component {
     static propTypes = {
-        ...ViewPager.propTypes,
         indicator: PropTypes.node,
         pagerStyle: ViewPropTypes.style,
         autoPlayEnable: PropTypes.bool,
