@@ -26,9 +26,9 @@
   "author": "ZubinTang",
   "license": "ISC",
   "dependencies": {
-    "@react-native-community/viewpager": "^1.1.7"
+    "@react-native-community/viewpager": "4.2.2"
   },
   "peerDependencies": {
-    "react-native": ">=0.62.0"
+    "react-native": ">=0.63.0"
   }
 }
